@@ -26,4 +26,4 @@ for word in tokenize_words:
 word_freq = Counter(tokenize_words_without_stop_words)
 
 for word , freq in word_freq.most_common():
-    print("f{} : {}".format(word , freq))
+    print("f {} : {}".format(word , freq))
